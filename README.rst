@@ -4,7 +4,11 @@ sphinxcontrib-diagrams
 
 The Sphinx extension allows you to embed diagrams.net(drawio) format into a document.
 
+::
+
     .. image:: example.drawio
+
+::
 
     .. figure:: example.drawio
 
@@ -41,6 +45,8 @@ Usage
 ::
 
     .. image:: example.drawio
+
+::
 
     .. figure:: example.drawio
 
