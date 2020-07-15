@@ -34,7 +34,7 @@ Add ``sphinxcontrib.diagrams`` to ``extensions`` at `conf.py`::
      extensions += ['sphinxcontrib.diagrams']
 
 
-And set your draw.io-export path to ``diagrams_exporter_path``(default: ``drawio``)::
+And set your draw.io-export path to ``diagrams_exporter_path`` (default: ``drawio``)::
 
      diagrams_exporter_path = 'your draw.io-export path'
 
