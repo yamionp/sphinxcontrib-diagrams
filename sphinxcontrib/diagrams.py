@@ -51,7 +51,7 @@ class DiagramsImageConverter(ImageConverter):
         abs_src_path = os.path.join(self.app.srcdir, src_path)
 
         # dest
-        dest_dir = os.path.join(self.imagedir, 'diagrams')
+        dest_dir = os.path.join(self.imagedir, 'diagrams', os.path.dirname(src_path))
         ensuredir(dest_dir)
 
         abs_dest_path = os.path.join(dest_dir, get_filename_for(src_path, to_mimetype))
