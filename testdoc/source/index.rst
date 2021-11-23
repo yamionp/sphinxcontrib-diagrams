@@ -7,10 +7,17 @@ Welcome to testdoc's documentation!
 ===================================
 
 .. image:: _static/サンプル.drawio
-   :scale: 50
+   :alt: Image Drawio Sample
+
 
 .. figure:: _static/サンプル.drawio
    :width: 600
-   :alt: Alternate Text
+   :alt: Figure Drawio Sample
 
    caption of figure
+
+
+.. toctree::
+
+   one/index.rst
+   two/index.rst
