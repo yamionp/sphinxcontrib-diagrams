@@ -43,5 +43,6 @@ RUN apt-get update \
 RUN npm -g config set user root
 RUN npm install --global draw.io-export
 RUN sed s/puppeteer.launch\({/puppeteer.launch\({args:[\'--no-sandbox\',\'--disable-setuid-sandbox\'],/g /usr/local/lib/node_modules/draw.io-export/export.js -i
+RUN sed s/page.setViewport\({/page.setViewport\({deviceScaleFactor:2,/g /usr/local/lib/node_modules/draw.io-export/export.js -i
 
 RUN python3 -m pip install sphinxcontrib-diagrams
